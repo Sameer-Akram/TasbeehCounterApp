@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/namaz1"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="@android:color/darker_gray"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+        <Button
+            android:id="@+id/tasbih"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#9E3A4757"
+            android:text="Alhumdullilah"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/kalma"
+            android:layout_width="0dp"
+
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#9E3A4757"
+            android:text="Allah O Akbar"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/astagfar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#9E3A4757"
+
+            android:text="Astagfar "
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/darood"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#9E3A4757"
+            android:text="Darood "
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/ayat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#9E3A4757"
+            android:text="Ayat e Karima "
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="0dp"
+            android:backgroundTint="#9E3A4757"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Reset"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Select Tasbeeh"
+            android:textColor="#FAF7F7"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="280dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#FAF6F6"
+            android:textSize="200dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/count"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#9E3A4757"
+            android:text="Count"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
